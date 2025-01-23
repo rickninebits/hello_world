@@ -12,7 +12,7 @@ jobs:
       - name: HelloWorld
         run: |
               echo "${{ secrets.API_KEY }}"
-              echo "${{ variables.WEBSITE }}"
+              echo "${{ vars.WEBSITE }}"
 
       - name: List
         run: ls -all
